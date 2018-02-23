@@ -2,11 +2,26 @@
 <nav class="teal lighten-2">
     <div class="nav-wrapper">
         <a href="#" class="brand-logo center">{{title}}</a>
+
         {{#if isBackVisible}}
         <ul id="nav-mobile" class="left">
             <li><a href="/home"><i class="large material-icons">keyboard_arrow_left</i></a></li>
         </ul>
         {{/if}}
+
+        {{#if logoutVisible}}
+        <ul id="nav-mobile" class="right">
+            <li><a href="/"><i class="large material-icons">close</i></a></li>
+        </ul>
+
+        <div class="fixed-action-btn">
+            <a href="/create" class="btn-floating btn-large teal">
+                <i class="large material-icons">add</i>
+            </a>
+        </div>
+        {{/if}}
+
+
     </div>
 </nav>
 </template>

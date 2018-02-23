@@ -1,3 +1,3 @@
 Template.home.onCreated(function () {
-    setHeader({title:"Home", isBackVisible:false});
+    setHeader({title:"Home", isBackVisible:false, logoutVisible:true});
 })
