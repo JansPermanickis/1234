@@ -27,6 +27,6 @@ johanbrook:publication-collector  # Test a Meteor publication by collecting its 
 materialize:materialize@=0.97.0
 session
 accounts-password
-iron:router
 alanning:roles
 underscore
+iron:router
